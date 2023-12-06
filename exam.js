@@ -120,16 +120,35 @@
 
 //Queston 08
 
-let input = +prompt("enter Price");
-const books = [
-  { title: "Book1", author: "Author1", price: 20 },
-  { title: "Book2", author: "Author2", price: 30 },
-  { title: "Book3", author: "Author3", price: 25 },
-  { title: "Book4", author: "Author4", price: 15 },
-];
 
-for (let i = 0; i <= books.length; i++) {
-  if (input < books[i].price) {
-    console.log(i);
-  }
-}
+
+
+
+//  const books = [
+//      { title: "book1", author: "author1", price: 20 },
+//      { title: "book2", author: "author2", price: 30 },
+//      { title: "book3", author: "author3", price: 25 },
+//      { title: "book4", author: "author4", price: 15 },
+//    ];
+  
+//    function filterBooks(bookArray, maxPrice) {
+//      const affordableBooks = [];
+  
+//      for (const book of bookArray) {
+//        if (book.price <= maxPrice) {
+//          affordableBooks.push(book);
+//        }
+//      }
+  
+//      return affordableBooks;
+//    }
+  
+//    const maxPrice = +prompt('Enter Price');
+//    const affordableBooks = filterBooks(books, maxPrice);
+  
+//    if (affordableBooks.length > 0) {
+//      console.log(`Books with prices less than or equal to ${maxPrice}:`);
+//      console.log(affordableBooks);
+//    } else {
+//      console.log(`No books found with prices less than or equal to ${maxPrice}`);
+//    }
